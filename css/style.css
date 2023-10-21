@@ -81,9 +81,9 @@ nav{
     
 }
 
-.debug .col-8 {
+.debug .information .col-8 {
     background-color: blue;
-    height: 200px;
+    height: 300px;
 }
 
 .col-4 {
@@ -91,16 +91,16 @@ nav{
     
 }
 
-.debug .col-4 {
+.debug .information .col-4 {
     background-color: blueviolet;
-    height: 200px;
+    height: 300px;
 }
 
 
 /* section objectives */
 
-.debug .objectives .col-4 {
-    height: 400px;
+.debug .objectives .row {
+    height: 600px;
 }
 
 .objectives .col-4 {
@@ -109,6 +109,10 @@ nav{
 
 
 /* section testimonials */
+
+.objectives {
+    background-color: var(--bool-violet);
+}
 
 .testimonials {
     display: flex;
@@ -128,3 +132,44 @@ nav{
     height: 200px;
 }
 
+/* section benefits */
+
+.debug .benefits .row {
+    height: 500px;
+}
+
+.benefits {
+    background-color: var(--bool-violet);
+}
+
+/* section about us */
+
+.about-us .row {
+    background-color: var(--bool-dark);
+    height: 500px;
+    
+}
+
+/* section get started */
+
+.free {
+    display: flex;
+}
+
+.debug .get-started {
+    height: 700px;
+}
+
+.get-started {
+    background-color: var(--bool-violet);
+}
+
+/* section footer */
+
+.debug footer {
+    height: 200px;
+}
+
+footer {
+    background-color: var(--bool-dark);
+}
