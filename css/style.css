@@ -20,6 +20,7 @@
 
 [class^="col-"]{
     padding: 1rem;
+    margin: 10px 10px;
 }
 
 
@@ -81,7 +82,7 @@ nav{
 }
 
 .col-8 {
-    width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8 - 20px);
     
 }
 
@@ -91,7 +92,7 @@ nav{
 }
 
 .col-4 {
-    width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4 - 20px);
     
 }
 
@@ -108,7 +109,7 @@ nav{
 }
 
 .objectives .col-4 {
-    width: calc(100% / 12 * 6);
+    width: calc(100% / 12 * 6 - 20px);
 }
 
 
@@ -121,14 +122,15 @@ nav{
 .testimonials {
     display: flex;
     flex-direction: column;
+    margin: 10px 10px;
 }
 .debug .text {
     background-color: var(--bool-primary);
     height: 200px;
 }
 
-.text {
-
+.text, .card {
+    margin: 10px 10px;
 }
 
 .debug .card {
