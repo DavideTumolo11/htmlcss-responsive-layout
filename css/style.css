@@ -11,9 +11,7 @@
     --res-dark: rgba(51, 51, 51, 1);
 }
 
-.debug .logo, .menù, .row, .col-8, .col-4, .col-6, .text, .card, .get-started {
-    border-style: dashed;
-}
+
 
 
 [class^="col-"]{
@@ -27,7 +25,15 @@
     margin-right: 10%;
 }
 
-@media screen and (max-width: 768px) {
+img {
+    max-width: 100%;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 810px) {
     .container {
         margin-left: 1%;
         margin-right: 1%;
@@ -43,6 +49,12 @@
         width: calc(100% / 12 * 6 - 20px);
     }
 }
+
+/* close responsive */
+
+
+
+
 
 
 /* section nav */
@@ -80,12 +92,34 @@ nav{
 }
 
 .menù {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.options {
+    display: flex;
+    margin: 25px 0px;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: white;
+    border: none;
+    padding: 5px;
 }
 
 
 
 /* section main */
+
+
 
 
 
@@ -98,9 +132,15 @@ nav{
     margin: 30px 0;
 }
 
-.col-8 {
+.col-8{
     width: calc(100% / 12 * 8 - 20px);
     
+}
+
+.col-8, .card {
+    display: flex;
+    min-height: 150px;
+    background-color: var(--res-violet);
 }
 
 .debug .information .col-8 {
@@ -121,6 +161,8 @@ nav{
 }
 
 
+
+
 /* section objectives */
 
 .debug .objectives .row {
@@ -136,8 +178,8 @@ nav{
 }
 
 
-/* section testimonials */
 
+/* section testimonials */
 
 .testimonials {
     display: flex;
@@ -160,6 +202,8 @@ nav{
     border-radius: 10px;
 }
 
+
+
 /* section benefits */
 
 .debug .benefits .row {
@@ -174,6 +218,8 @@ nav{
     background-color: var(--res-violet);
 }
 
+
+
 /* section about us */
 
 .debug .about-us .row {
@@ -184,6 +230,8 @@ nav{
 .debug, .about-us, .col-8, .col-4 {
     border-radius: 10px;
 }
+
+
 
 /* section get started */
 
@@ -198,6 +246,8 @@ nav{
 .get-started {
     background-color: var(--res-violet);
 }
+
+
 
 /* section footer */
 
