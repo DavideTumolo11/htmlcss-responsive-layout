@@ -7,7 +7,7 @@
 :root {
     --res-primary: rgba(0, 132, 253, 1);
     --res-violet: rgba(151, 146, 228, 1);
-    --res-success: rgba(255, 255, 255, 1);
+    --res-success: rgba(181, 221, 255, 1);
     --res-dark: rgba(51, 51, 51, 1);
 }
 
@@ -15,19 +15,17 @@
 
 
 [class^="col-"]{
-    padding: 1rem;
+    padding: 0rem 1rem;
     margin: 10px 10px;
 }
 
 
 .container {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
-img {
-    max-width: 100%;
-}
+
 
 
 
@@ -126,6 +124,11 @@ nav{
 
 /* section information */
 
+.information .card {
+    background-color: var(--res-success);
+    min-height: 150px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -137,11 +140,50 @@ nav{
     
 }
 
-.col-8, .card {
+.col-8, .card .demo {
     display: flex;
-    min-height: 150px;
-    background-color: var(--res-violet);
+    
+    
 }
+
+.demo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    margin: 10px 10px;
+    color: var(--res-primary);
+}
+
+.demo-text, p {
+    margin: 10px 10px;
+    color: var(--res-dark);
+    line-height: 30px;
+
+}
+
+.phone {
+    max-width: 200px;
+    margin-left: 130px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.fa-file-code, .fa-compass-drafting  {
+    color: var(--res-primary);
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.col-4, .card .code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .debug .information .col-8 {
     background-color: blue;
@@ -160,7 +202,8 @@ nav{
     border-radius: 10px;
 }
 
-
+.code-text {
+}
 
 
 /* section objectives */
