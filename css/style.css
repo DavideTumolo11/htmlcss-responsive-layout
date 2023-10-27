@@ -157,7 +157,7 @@ nav{
     color: var(--res-primary);
 }
 
-.demo-text, p {
+.demo-text, .p-demo {
     margin: 10px 10px;
     color: var(--res-dark);
     line-height: 30px;
@@ -168,7 +168,7 @@ nav{
     color: white;
     background-color: var(--res-primary);
     border-radius: 20px;
-    margin-right: 190px;
+    margin-right: 170px;
     padding-left: 20px;
 }
 
@@ -227,6 +227,70 @@ nav{
 
 .objectives {
     background-color: var(--res-violet);
+}
+
+.objectives .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.planning {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.plan1 {
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+.img-plan1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text-plan1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    margin-left: 70px;
+    margin-right: 40px;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.h2-plan1 {
+    margin-bottom: 50px;
+}
+
+.developement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 250px;
+    margin-bottom: 65px;
+    margin-right: 200px;
+}
+
+.plan2 {
+    height: 200px;
+}
+
+.text-plan2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    margin: 20px 80px;
+
 }
 
 
