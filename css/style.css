@@ -21,8 +21,8 @@
 
 
 .container {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 270px;
+    margin-right: 270px;
 }
 
 
@@ -126,7 +126,8 @@ nav{
 
 .information .card {
     background-color: var(--res-success);
-    min-height: 150px;
+    min-height: 270px;
+    
 }
 
 .row {
@@ -163,6 +164,14 @@ nav{
 
 }
 
+.store {
+    color: white;
+    background-color: var(--res-primary);
+    border-radius: 20px;
+    margin-right: 190px;
+    padding-left: 20px;
+}
+
 .phone {
     max-width: 200px;
     margin-left: 130px;
@@ -170,13 +179,13 @@ nav{
     margin-top: 40px;
 }
 
-.fa-file-code, .fa-compass-drafting  {
+.fa-file-code, .fa-compass-drafting, .fa-laptop-code, .fa-bullhorn {
     color: var(--res-primary);
     margin-bottom: 10px;
     font-size: 60px;
 }
 
-.col-4, .card .code {
+.col-4, .card .code .fa-compass-drafting{
     display: flex;
     flex-direction: column;
     justify-content: center;
